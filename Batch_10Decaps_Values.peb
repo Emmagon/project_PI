@@ -1,0 +1,60 @@
+<Batch Analysis="PI" Version="2" PowerBus="Power_GND">
+  
+  <Iterate>
+    <Group>
+	 
+      <Edit Table="Component" Name="C1" Column="Name" Value="false" />
+      <Edit Table="Component" Name="C1" Column="Value" Value="0.00"/>
+      <Edit Table="PI Decap" Name="C1" Column="ESR" Value="0.00"/>
+      <Edit Table="PI Decap" Name="C1" Column="ESL" Value="0"/>
+
+      <Edit Table="Component" Name="C2" Column="Name" Value="false" />
+      <Edit Table="Component" Name="C2" Column="Value" Value="0"/>
+      <Edit Table="PI Decap" Name="C2" Column="ESR" Value="0"/>
+      <Edit Table="PI Decap" Name="C2" Column="ESL" Value="0"/>
+
+      <Edit Table="Component" Name="C3" Column="Name" Value="false" />
+      <Edit Table="Component" Name="C3" Column="Value" Value="0"/>
+      <Edit Table="PI Decap" Name="C3" Column="ESR" Value="0"/>
+      <Edit Table="PI Decap" Name="C3" Column="ESL" Value="0"/>
+
+      <Edit Table="Component" Name="C4" Column="Name" Value="false" />
+      <Edit Table="Component" Name="C4" Column="Value" Value="0"/>
+      <Edit Table="PI Decap" Name="C4" Column="ESR" Value="0"/>
+      <Edit Table="PI Decap" Name="C4" Column="ESL" Value="0"/>
+
+      <Edit Table="Component" Name="C5" Column="Name" Value="false" />
+      <Edit Table="Component" Name="C5" Column="Value" Value="0"/>
+      <Edit Table="PI Decap" Name="C5" Column="ESR" Value="0"/>
+      <Edit Table="PI Decap" Name="C5" Column="ESL" Value="0"/>
+
+      <Edit Table="Component" Name="C6" Column="Name" Value="false" />
+      <Edit Table="Component" Name="C6" Column="Value" Value="0"/>
+      <Edit Table="PI Decap" Name="C6" Column="ESR" Value="0"/>
+      <Edit Table="PI Decap" Name="C6" Column="ESL" Value="0"/>
+
+      <Edit Table="Component" Name="C7" Column="Name" Value="false" />
+      <Edit Table="Component" Name="C7" Column="Value" Value="0"/>
+      <Edit Table="PI Decap" Name="C7" Column="ESR" Value="0"/>
+      <Edit Table="PI Decap" Name="C7" Column="ESL" Value="0"/>
+
+      <Edit Table="Component" Name="C8" Column="Name" Value="false" />
+      <Edit Table="Component" Name="C8" Column="Value" Value="0"/>
+      <Edit Table="PI Decap" Name="C8" Column="ESR" Value="0"/>
+      <Edit Table="PI Decap" Name="C8" Column="ESL" Value="0"/>  
+
+      <Edit Table="Component" Name="C9" Column="Name" Value="false" />
+      <Edit Table="Component" Name="C9" Column="Value" Value="0"/>
+      <Edit Table="PI Decap" Name="C9" Column="ESR" Value="0"/>
+      <Edit Table="PI Decap" Name="C9" Column="ESL" Value="0"/> 
+
+      <Edit Table="Component" Name="C10" Column="Name" Value="false" />
+      <Edit Table="Component" Name="C10" Column="Value" Value="0"/>
+      <Edit Table="PI Decap" Name="C10" Column="ESR" Value="0"/>
+      <Edit Table="PI Decap" Name="C10" Column="ESL" Value="0"/>           
+      
+            
+      <CreatePISpectrum Component="IC1" Format="ARV,CSV" />
+    </Group>
+  </Iterate>
+</Batch>
